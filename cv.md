@@ -5,7 +5,7 @@
 * *Phone:* +7-(905)-384-28-14
 * *E-mail:* kramskov.mgoo@gmail.com
 * *Telegram:* @mhatikov
-
+* *[LinkedIn](www.linkedin.com/in/mhatikov)*
 ### Briefly About Myself:
 *I started being interested in web development at the age of 11, as soon as I got my first computer with Internet access. I have always been interested in working with pages on the Internet. That's why I started learning html at school. Over time, I came to the conclusion that this is what I want to do professionally.*
 
