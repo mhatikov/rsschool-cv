@@ -12,6 +12,19 @@
     <main class="cv">
         <div class="cv__wrapper cv-container">
             <header class="cv__header header cv-content-wrapper">
+                <nav class="header__menu menu">
+                    <ul class="menu__wrapper">
+                        <li class="menu__item"><a data-goto=".header__contact-info" href="#" class="menu__item-link">My contacts</a></li>
+                        <li class="menu__item"><a data-goto=".about-me" href="#" class="menu__item-link">About-me</a></li>
+                        <li class="menu__item"><a data-goto=".education" href="#" class="menu__item-link">Education</a></li>
+                        <li class="menu__item"><a data-goto=".hard-skills" href="#" class="menu__item-link">Hard-skills</a></li>
+                        <li class="menu__item"><a data-goto=".code-example" href="#" class="menu__item-link">Example-code</a></li>
+                        <li class="menu__item"><a data-goto=".language" href="#" class="menu__item-link">Languages</a></li>
+                    </ul>
+                    <div class="menu__menu-icon">
+                        <span></span>
+                    </div>            
+                </nav>
                 <div class="header__title">
                     <div class="header__title-photo">
                         <div class="header__title-photo-wrap">
@@ -19,18 +32,18 @@
                         </div>
                     </div>
                     <h1 class="header__title-name">
-                        <div class="header__title-container-name">
+                        <span class="header__title-container-name">
                             <span id="name">Mihail</span><span id = "last-name">Kramskov</span> <br />
-                        </div>
-                        <div class="header__title-container-work">
+                        </span>
+                        <span class="header__title-container-work">
                             <span id = "work">Junior front-end developer</span>
-                        </div>
+                        </span>
                     </h1>
                 </div>
                 <ul class="header__contact-info">
-                    <li class="header__contact-info-item"><a href="https://t.me/m_hatikov"><span class="_icon-telegram">m_hatikov</span></a></li>
-                    <li class="header__contact-info-item"><a href="mailto:kramskov.mgoo@gmail.com"><span class="_icon-mail">kramskov.mgoo@gmail.com</span></a></li>
-                    <li class="header__contact-info-item"><a href="tel:+7(905)384-28-14"><span class="_icon-phone">+7(905)384-28-14</span></a></li>
+                    <li class="header__contact-info-item"><a href="https://t.me/m_hatikov" class="header__contact-info-link"><span class="_icon-telegram">m_hatikov</span></a></li>
+                    <li class="header__contact-info-item"><a href="mailto:kramskov.mgoo@gmail.com" class="header__contact-info-link"><span class="_icon-mail">kramskov.mgoo@gmail.com</span></a></li>
+                    <li class="header__contact-info-item"><a href="tel:+7(905)384-28-14" class="header__contact-info-link"><span class="_icon-phone">+7(905)384-28-14</span></a></li>
                 </ul>
             </header>
             <section class="cv__about-me about-me cv-content-wrapper">
@@ -262,7 +275,7 @@
                 </div>
             </section>
             <section class="cv__language language cv-content-wrapper">
-                <h4 class="language__title cv-title-content">languages</h4>
+                <h4 class="language__title cv-title-content">Languages</h4>
                 <div class="language__content">
                     <ul class="language__content-wrapper">
                         <li class="language__content-item">Russian - native</li>
@@ -363,5 +376,6 @@
             </footer>
         </div>
     </main>
+    <script src="js/common.js"></script>
 </body>
 </html>
